@@ -1,20 +1,35 @@
-Rasterview
-A lightweight image viewer built with Rust and egui.
-Rasterview is designed to keep image viewing simple. Open images, browse your files, zoom in, and move around your images without unnecessary clutter or complicated menus.
-Features
-• Lightweight and straightforward interface
-• Image viewing and browsing
-• Zoom and pan controls
-• Built with Rust and egui
-Getting Started
-Download a release for your platform, or build Rasterview from source.
-Build from source
-Make sure you have Rust and Cargo installed.
+# Rasterview
+
+A simple image viewer made with Rust and egui.
+
+Just a little project I'm working on. Nothing too complicated, just an image viewer that I want to make nice and easy to use.
+
+## Made with
+- Rust
+- egui
+
+## Running it
+
+You'll need Rust and Cargo installed.
+
+```bash
 git clone https://github.com/Jonzu00/Rasterview.git
 cd Rasterview
-cargo run —release
-Philosophy
-Rasterview focuses on doing one thing well: viewing images.
-No unnecessary complexity. Just your images.
-License
-See the repository for license information.
+cargo run
+```
+
+To build it:
+
+```bash
+cargo build --release
+```
+
+## About
+
+Rasterview is still a work in progress, so things might change as I keep working on it.
+
+Feel free to check out the code!
+
+---
+
+GitHub: [Jonzu00/Rasterview](https://github.com/Jonzu00/Rasterview)
